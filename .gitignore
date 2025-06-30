@@ -1,0 +1,64 @@
+# -----------------------------
+# Python & Streamlit project
+# -----------------------------
+
+# Byte‑compiled / optimised files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.dylib
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Package build artifacts
+build/
+dist/
+*.egg-info/
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage tools
+htmlcov/
+.coverage*
+.cache/
+.pytest_cache/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit runtime cache
+.streamlit/
+
+# Secrets & environment variables
+.env
+.env.*
+
+# Data & logs (add patterns as needed)
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.db
+*.sqlite3
+*.log
+
+# OS & editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Docker (ignore local images/containers, keep the Dockerfile)
+**/.docker/
+
+# End of .gitignore
+
+.env
